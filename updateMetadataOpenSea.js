@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 // Update Contract Address Here
 const OPENSEA_URI = 'https://api.opensea.io/asset/ADD_CONTRACT_ADDRESS'; 
 
-// Maximum Tokens Belonging to Contract
+// Maximum Tokens Belonging to Contract.
 const MAX_TOKENS = 3349;
 
 function refreshData(tokenId) {
